@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+        <style>
+        	.div-all{
+        		width: 200px;
+        		height: 100px;
+        		background-color: #dddddd;
+        		border: 1px solid #000000;
+        		border-radius: 100px;
+        	}
+        	.div-each{
+        		width: 200px;
+        		height: 100px;
+        		background-color: #dddddd;
+        		border: 1px solid #000000;
+        		
+        		border-top-left-radius: 10px;
+        		border-top-right-radius: 30px;
+        		border-bottom-right-radius: 30px;
+        		border-bottom-left-radius: 30px;
+        	}
+        	
+        	.div-each1{
+        		width: 200px;
+        		height: 100px;
+        		background-color: #dddddd;
+        		border: 1px solid #000000;
+        		border-radius: 10px 20px 30px 40px; /* 한번에 하기 위에서부터 시계방향 */
+        	}
+        	.btn{
+        		width: 100px;
+        		border: 1px solid #000000;
+        		text-align: center;
+        		
+        		
+        	}
+        	
+        	
+        	
+        	.btn-gray{
+        		width: 100px;
+        		background-color: #808080;
+        		border: 1px solid #000000;
+        		text-align: center;
+        	}
+        	.btn-red{
+        		width: 100px;
+        		background-color: #ff0000;
+        		border: 1px solid #000000;
+        		text-align: center;
+        		
+        	}
+        	.btn-blue{
+        		width: 100px;
+        		background-color: #0000ff;
+        		border: 1px solid #000000;
+        		text-align: center;
+					
+        	
+        	}
+        	
+        
+        
+        </style>
+        
+    </head>
+
+    <body>
+    
+   		<div class="div-all">라운드 한번 적용</div>
+   		<br>
+   		<div class="div-each">라운드 각각 적용</div>
+		<br>
+		<div class="div-each1">라운드 각각전용</div>
+		<br>
+		<div class="btn-gray">저장버튼</div>
+		<div class="btn-red">삭제버튼</div>
+		<div class="btn-blue">수정버튼</div>
+		<a class="btn-gray" href="https://www.naver.com">네이버</a>
+        
+
+    </body>
+
+</html>
